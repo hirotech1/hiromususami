@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HiromuSusami</title>
+    <%= csrf_meta_tags %>
+    
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
+    
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+  </head>
+  <body>
+    
+    <header>
+    </header>
+    <main>
+      
+    <h1 class="top-message">HIROMU SUSAMI</h1>
+      <div class="main-area">  
+        <div class="heading-area"> 
+          <h2 class="heading">自己紹介</h2>
+          <div class="introduce"> 
+            <div class="flex">
+              <div class="subtitle-area me">
+                <p>須佐美大夢</p>
+                <p>1999年7月生まれ</p>
+                <p>高知工科大学システム工学群 知能機械工学専攻</p>
+                <p>2022年3月に卒業し高知工科大学の大学院に進学予定</p>
+                <p>email: hiromu.susami@gmail.com</p>
+              </div>
+              <div class="myphoto"></div>
+            </div>
+            
+            <div class="subtitle-area blue"> 
+              <h3 class="subtitle ">過去経歴</h3>
+              <div class="space"></div>
+              <p>2021年3月下旬 独学でプログラミング学習スタート</p>
+              <p>ドットインストールでHTML,CSSを学ぶ。</p>
+              <p>ProgateにてSQL,Commmand Line,Javascript,Node.js,SQL,Ruby on railsを学ぶ。</p>
+              <p>2021年5月下旬 Webアプリ「KUTRoomSearcher」の制作を始める。</p>
+              <p>2021年6月中旬 ローカル環境にて「KUTRoomSearcher」が完成。</p>
+            </div>
+            <div class="subtitle-area blue"> 
+              <h3 class="subtitle">使用言語</h3>
+              <div class="space"></div>
+              Ruby on Rails, HTML, CSS
+            </div>
+            <div class="subtitle-area blue"> 
+              <h3 class="subtitle">その他資格</h3>
+              <div class="space"></div>
+              2021年3月 TOEIC 855点獲得
+            </div>
+            <div class="subtitle-area blue flex"> 
+            
+            <div class="school">
+              <h3 class="subtitle">学生生活</h3>
+                <div class="space"></div>
+                <p>中高6年間ソフトテニス部に所属。以下高校での戦績。</p>
+                <p>大阪府大会予選 個人戦 優勝</p>
+                <p>大阪府大会　　 団体戦 近畿大会出場</p>
+                <p>大学1年の夏休みにバックパッカーになる。40日間東南アジアを一人旅。</p>
+                <p>北海道から鹿児島までヒッチハイク日本縦断。</p>
+                <p>「学生こそ海外から刺激を感じてほしい」</p>
+                <p>そんな思いから友人とYouTubeチャンネル<a href="https://www.youtube.com/channel/UC9cLzTKrrDTxbibnxIb0a9g/videos">「貧ビントリップス」</a>を始める。</p>
+                <p>大学在学中 学年1位の成績を維持 ※2021年6月現在 GPA3.75</p>
+                <p></p>
+                <p></p>
+              </div>
+              <div class="hike"></div>
+            </div>
+          </div>
+        </div>
+        <div class="heading-area kut"> 
+          <h2 class="heading">作品紹介</h2> 
+          
+          <div class="subtitle-area describe flex"> 
+            <div class="title-area">
+              <p class="title">KUTRoomSearcher</p>
+              <p>URL: <a href="https://git.heroku.com/kutroomsearcher.git">https://git.heroku.com/kutroomsearcher.git</a> </p>
+               <span>※リモート環境ではまだ実装に成功していません</span>
+              <p>ソースコード: <a href="https://github.com/hirotech1/KUTRoomSearcher">https://github.com/hirotech1/KUTRoomSearcher</a></p>
+            </div> 
+            <div class="kut-image"></div>
+          </div>
+          <div class="subtitle-area">   
+            <h3 class="subtitle">内容</h3> 
+            <p>自身が大学1年の時に感じた「不便」から生まれたアプリ。</p>
+            <p>先生の部屋や事務室に行かなくても先生、TAさんの部屋がわかる。</p>
+            <p>ウィキペディアのようにユーザー自身が情報を投稿、編集しそれを他のユーザーが確認できる。</p>
+            <p>受講する授業を登録すると検索しなくても受講講座一覧が確認できる。</p>
+        
+          </div>
+          
+          <div class="subtitle-area future"> 
+            <h3 class="subtitle">今後の展望</h3> 
+            <p>早急にリモート環境に実装</p>
+            <p>レスポンシブデザインに対応</p>
+            <p>大学の認証を加えて全大学に対応させる</p>
+            <p>先生が研究室のホームページなどのURLを表示することで、研究室の紹介に繋げる。</p>
+            <p>大学の認証を加えて全大学に対応</p>
+          </div>
+          <div class="subtitle-area ingenuity "> 
+            <h3 class="subtitle">工夫点</h3> 
+            <p>高知工科大学のホームページとサイトの配色を同じにすることで、高知工科大学生が見やすいデザインにした。</p>
+            <p>「正確」ボタンとそれを押した人数を表示することでユーザーが安心して情報を確認できるようにした。</p>
+          </div>
+          <div class="subtitle-area difficulty "> 
+            <h3 class="subtitle">苦労した点</h3> 
+            <p>制作期間の8割の時間がかかるほどローカル環境の構築が大変だった。</p>
+            <p>Teratailなどを利用し、最終的には自力でローカル環境構築に成功した。</p>
+          </div>
+          <div class="subtitle-area learned"> 
+            <h3 class="subtitle">学んだ点</h3> 
+            <p>エラーログを根気よく読み解く力を身に着けた。</p>
+            <p>ページデザインをしっかりイメージし、あらかじめ適切にクラスを設定することで効率よく作成できると学んだ。</p>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+      
+    </main>
+    <footer>
+      <p>created by hiromu susami　　　　　　  email:　hiromu.susami@gmail.com</p>
+    </footer>
+  </body>
+</html>
+      
