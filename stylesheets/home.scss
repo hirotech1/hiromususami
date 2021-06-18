@@ -1,0 +1,139 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+///すべて-------------------
+
+* {
+  box-sizing: border-box; 
+  margin:0;
+  line-height: 45px;
+  // padding: 0 5px;
+  
+}
+
+header{
+  width: 100%;
+  height: 300px;
+  background:url("topimage.jpg") ;
+  background-size: cover;
+  background-position: 65% 55%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.myphoto{
+  background:url("myphoto.jpg");
+  // position: right;
+  border-radius: 50%;  
+  width:  240px;       
+  height: 240px;     
+  background-size: cover;
+  margin: 30px auto 30px 10% ;
+}
+.me.subtitle-area{
+  margin: 30px 0 ;
+  text-align: center;
+  vertical-align: middle;
+}
+.top-message{
+  height: 300px;
+  line-height: 300px;
+  font-size: 65px;
+  color: white;
+  text-align: center;
+}
+
+.heading-area{
+  background: white;
+}
+
+.heading{
+  border-bottom: grey double 4px;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0 10px;
+  // height: 70px;
+  // text-align: 70px;
+}
+
+.subtitle-area{
+  padding:0  10%;
+}
+
+.subtitle{
+  border-bottom: grey double 3px;
+  font-size: 30px;
+  padding: 20px 0 0;
+  display: inline-block;
+  
+}
+
+.blue{
+  background: rgb(194, 224, 236);
+}
+
+.space{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.hike{
+  background:url("hike.jpg");
+  // position: right;
+  border-radius: 10%;  
+  width:  40%;       
+  // height: auto;     
+  background-size: cover;
+  background-position: 50% 50%;
+
+  margin: 60px 0 ;
+}
+.hike:before {
+  content:"";
+  display: block;
+  padding-top: 75%; 
+}
+
+.school{
+  width: 60%;
+}
+
+
+//作品紹介-------------
+
+.title{
+  margin: 20px 0 ;
+  font-size: 54px;
+}
+
+span{
+  color: red;
+}
+
+.green{
+  background-color: rgb(185, 247, 200);
+}
+
+footer{
+  margin-top: 40px;
+  color: white;
+  background-color: grey;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  // font: 10px;
+}
+
+.kut-image{
+  background:url("KUT.png");
+  width:  100%;       
+  height: 300px;     
+  background-size: cover;
+  
+  margin-left:20px;
+}
