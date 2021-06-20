@@ -9,7 +9,6 @@
   margin:0;
   line-height: 45px;
   // padding: 0 5px;
-  
 }
 
 body{
@@ -64,6 +63,7 @@ header{
 
 .subtitle-area{
   padding:0  10%;
+  margin-bottom: 20px;
 }
 
 .subtitle{
@@ -71,7 +71,6 @@ header{
   font-size: 30px;
   padding: 20px 0 0;
   display: inline-block;
-  
 }
 
 .blue{
